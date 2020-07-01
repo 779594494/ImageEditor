@@ -1,0 +1,37 @@
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="main_backgroud">#333333</color>
+    <color name="materialcolorpicker__white">#ffffff</color>
+    <color name="materialcolorpicker__red">#f44336</color>
+    <color name="materialcolorpicker__green">#4caf50</color>
+    <color name="materialcolorpicker__blue">#2196f3</color>
+    <color name="materialcolorpicker__grey">#b3b3b3</color>
+    <color name="materialcolorpicker__lightgrey">#d9d9d9</color>
+    <color name="materialcolorpicker__dribble">#ea4c89</color>
+    <color name="materialcolorpicker__dribbledark">#c32361</color>
+    <color name="materialcolorpicker__black">#000000</color>
+    <color name="materialcolorpicker__dialogcolor">#009688</color>
+    <color name="hint_foreground_material_light">#00000000</color>
+    <color name="hint_foreground_material_dark">#00000000</color>
+
+    <color name="hint_foreground_crop">#356ae2</color>
+
+    <color name="icon_color_1">#f52f2f</color>
+    <color name="icon_color_2">#f5921e</color>
+    <color name="icon_color_3">#ffdc18</color>
+    <color name="icon_color_4">#3dd886</color>
+    <color name="icon_color_5">#27e7e0</color>
+    <color name="icon_color_6">#0aa7f0</color>
+    <color name="icon_color_7">#096fed</color>
+    <color name="icon_color_8">#7f20f3</color>
+    <color name="icon_color_9">#ed62f9</color>
+    <color name="icon_color_10">#e30b80</color>
+    <color name="icon_color_11">#ffffff</color>
+    <color name="icon_color_12">#0c0c0c</color>
+    <color name="icon_color_13">#666666</color>
+    <color name="icon_color_14">#733413</color>
+    <color name="icon_color_15">#9ac92a</color>
+    <color name="icon_color_16">#0473a1</color>
+    <color name="icon_color_17">#aa3e3e</color>
+    <color name="icon_color_18">#c0a40a</color>
+</resources>

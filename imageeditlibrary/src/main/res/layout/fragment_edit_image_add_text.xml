@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/back_to_main"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/image_edit_back"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/text_color"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:background="#ffffff"/>
+                <com.xinlan.imageeditlibrary.editimage.view.PaintModeView
+                    android:id="@+id/paint_thumb"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp" />
+                <com.xinlan.imageeditlibrary.editimage.view.ColorPickerView
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    android:id="@+id/colorPickerView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    app:indicatorColor="#ffffff"
+                    app:orientation="horizontal" />
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/paint_color_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:overScrollMode="never"
+                    android:scrollbars="none"/>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/iv_font_switch"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/icon_font_switch"/>
+                <EditText
+                    android:layout_toRightOf="@+id/iv_font_switch"
+                    android:id="@+id/text_input"
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginLeft="10dp"
+                    android:hint="@string/input_hint"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="8dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+
+                <HorizontalScrollView
+                    android:layout_toRightOf="@+id/iv_font_switch"
+                    android:id="@+id/scrollView"
+                    android:background="#000000"
+                    android:visibility="gone"
+                    android:overScrollMode="never"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <RadioGroup
+                        android:gravity="top"
+                        android:padding="5dp"
+                        android:id="@+id/filter_group"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal" >
+                    </RadioGroup>
+                </HorizontalScrollView>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
